@@ -1,0 +1,23 @@
+{
+  "name": "fb-movies",
+  "version": "1.0.0",
+  "description": "Project code for Starting with Firebase course",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlohaCode/Starting-with-Firebase.git"
+  },
+  "keywords": [
+    "Firebase",
+    "JavaScript"
+  ],
+  "author": "AlohaCode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlohaCode/Starting-with-Firebase/issues"
+  },
+  "homepage": "https://github.com/AlohaCode/Starting-with-Firebase#readme"
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Firebase Hosting</title>
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/4.1.5/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/4.1.5/firebase-auth.js"></script>
+  <script defer src="/__/firebase/4.1.5/firebase-database.js"></script>
+  <script defer src="/__/firebase/4.1.5/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/4.1.5/firebase-storage.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script defer src="/__/firebase/init.js"></script>
+</head>
+
+<body>
+
+  <div>
+    <button id="btnLogin">Google Log In</button>
+    <div>&nbsp;</div>
+  </div>
+
+  <!-- Email Login -->
+  <div>
+    <input id="txtEmail" type="email" placeholder="Email">
+    <input id="txtPassword" type="password" placeholder="password">
+    <div>
+      <button id="btnEmailLogin">Login</button>
+      <button id="btnCreateAccount">Create Account</button>
+    </div>
+    <div>&nbsp;</div>
+  </div>
+
+  <!-- Welcome message -->
+  <div id="msg"></div>
+
+  <!-- Log out -->
+  <div>
+    <button id="btnLogout">Log Out</button>
+    <div>&nbsp;</div>
+  </div>
+
+  <!-- lists -->
+  <div>
+    <ul id="movies"></ul>
+  </div>
+  <div>&nbsp;</div>
+  <div>
+    <ul id="characters"></ul>
+  </div>
+
+  <!-- trollbox -->
+  <hr>
+  <h3>Trollbox</h3>
+  <div id="trollbox"></div>
+  <div>&nbsp;</div>
+  <div>
+    <input id="txtTrollMsg" placeholder="What now?">
+    <div>
+      <button id="btnNewTrollMsg">Post it!</button>
+    </div>
+  </div>
+
+  <script defer src="app.js"></script>
+</body>
+
+</html>
