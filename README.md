@@ -1,8 +1,9 @@
-Welcome to Starting with Firebase
+# Welcome to Starting with Firebase
+This is the code used in this course's various projects
 
-Setup a Firebase project on Cloud 9:
+### Setup a Firebase project on Cloud 9:
 1. update nvm... $ nvm install 8.1.2
-2. alias new version... $ nvm alias default 8.1.2
+2. alias new nvm version... $ nvm alias default 8.1.2
 3. update npm... npm i -g npm
 4. install Firebase CLI... $ npm install -g firebase-tools
 5. create a subdirectory... $ mkdir my-project-name
