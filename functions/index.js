@@ -9,7 +9,7 @@ const translateClient = Translate({
 // russian auto-translate
 exports.translateToRussian = functions.database
     .ref('/trollbox/{messageId}')
-    .onWrite(event => {
+    .onWrite((event, context) => {
         const translated = event.data.val().translated;
         if (!translated) {
             const origTxt = event.data.val().message;
